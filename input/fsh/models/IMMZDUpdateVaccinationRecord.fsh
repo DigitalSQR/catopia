@@ -1,7 +1,7 @@
 Logical: IMMZDCatUpdateVaccinationRecord
 Title:        "IMMZ.D Update Vaccination Record"
 Description:  "Data elements for IMMZ.D Update Vaccination Record."
-* ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
+Parent: IMMZDUpdateVaccinationRecord
+Characteristics: #can-be-target
 * ^name = "IMMZDUpdateVaccinationRecord"
 * ^status = #active
-Parent: IMMZDUpdateVaccinationRecord
