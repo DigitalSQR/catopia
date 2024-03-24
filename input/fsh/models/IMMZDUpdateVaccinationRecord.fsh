@@ -5,3 +5,5 @@ Parent: IMMZDUpdateVaccinationRecord
 Characteristics: #can-be-target
 * ^name = "IMMZDUpdateVaccinationRecord"
 * ^status = #active
+
+* vaccineProduct from VSCatMeaslesVaccineProducts (required)
