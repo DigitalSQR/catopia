@@ -1,0 +1,49 @@
+SMART : Validation Results
+=========================================
+
+err = 5, warn = 11, info = 2
+IG Publisher Version: 1.6.1
+Generated Mon Mar 11 18:47:26 UTC 2024. FHIR version 4.3.0 for who.fhir.smart-measles-catopia#0.1.0 (canonical = http://worldhealthorganization.github.io/smart)
+ Build Errors : 14 / 6 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-CatMeaslesVaccineProducts : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-measles-catopia : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/Medication-Vaccine-MSDMMRVaxPro : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-CatMeaslesImmunization : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-CatMeaslesVaccineProduct : 1 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/CatMeaslesImmunization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/CatMeaslesVaccineProduct.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Immunization.status: The reference http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 could not be resolved
+ERROR: Medication.status: The reference http://hl7.org/fhir/ValueSet/medication-status|4.0.1 could not be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesImmunization-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 414, column 405: The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesImmunization-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 502, column 297: The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesImmunization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 461, column 1878: The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesImmunization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 525, column 1876: The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesImmunization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 837, column 1878: The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesImmunization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 901, column 1876: The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesVaccineProduct-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 398, column 405: The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesVaccineProduct-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 455, column 297: The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesVaccineProduct.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 463, column 1876: The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesVaccineProduct.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 513, column 1854: The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesVaccineProduct.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 706, column 1876: The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-CatMeaslesVaccineProduct.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 756, column 1854: The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-CatMeaslesVaccineProducts.json ==
+INFORMATION: CodeSystem/CatMeaslesVaccineProducts: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/CatMeaslesVaccineProducts: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/CatMeaslesVaccineProducts: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-who.fhir.smart-measles-catopia.json ==
+ERROR: ImplementationGuide/who.fhir.smart-measles-catopia: ImplementationGuide.meta.profile[0]: Canonical URLs must be absolute URLs if they are not fragment references (SMARTImplementationGuide)
+WARNING: ImplementationGuide/who.fhir.smart-measles-catopia: ImplementationGuide.meta.profile[0]: Profile reference 'SMARTImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Medication-Vaccine-MSDMMRVaxPro.json ==
+WARNING: Medication/Vaccine-MSDMMRVaxPro: Medication.code: ValueSet 'https://fhir.staging.openconceptlab.org/orgs/WHO-Smart-Guidelines/ValueSet/VSMeaslesVaccineProducts' not found
+INFORMATION: Medication/Vaccine-MSDMMRVaxPro: Medication.code: Reference to experimental CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts|0.1.0
+== fsh-generated/resources/StructureDefinition-CatMeaslesImmunization.json ==
+ERROR: StructureDefinition/CatMeaslesImmunization: StructureDefinition.snapshot.element[17].binding.valueSet: Canonical URL 'http://hl7.org/fhir/ValueSet/immunization-status|4.0.1' does not resolve
+WARNING: StructureDefinition.where(url = 'http://worldhealthorganization.github.io/smart/StructureDefinition/CatMeaslesImmunization'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-CatMeaslesVaccineProduct.json ==
+ERROR: StructureDefinition/CatMeaslesVaccineProduct: StructureDefinition.snapshot.element[12].binding.valueSet: Canonical URL 'http://hl7.org/fhir/ValueSet/medication-status|4.0.1' does not resolve

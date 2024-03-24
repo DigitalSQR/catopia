@@ -1,0 +1,30 @@
+[
+  {
+    "id" : "CatMeaslesVaccineProducts",
+    "type" : "CodeSystem",
+    "url" : "http://worldhealthorganization.github.io/smart/CodeSystem/CatMeaslesVaccineProducts",
+    "version" : "0.1.0",
+    "name" : "CatMeaslesVaccineProducts"
+  },
+  {
+    "id" : "who.fhir.smart-measles-catopia",
+    "type" : "ImplementationGuide",
+    "url" : "http://worldhealthorganization.github.io/smart/ImplementationGuide/who.fhir.smart-measles-catopia",
+    "version" : "0.1.0",
+    "name" : "SMART"
+  },
+  {
+    "id" : "CatMeaslesImmunization",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/smart/StructureDefinition/CatMeaslesImmunization",
+    "version" : "0.1.0",
+    "name" : "CatMeaslesImmunization"
+  },
+  {
+    "id" : "CatMeaslesVaccineProduct",
+    "type" : "StructureDefinition",
+    "url" : "http://worldhealthorganization.github.io/smart/StructureDefinition/CatMeaslesVaccineProduct",
+    "version" : "0.1.0",
+    "name" : "CatMeaslesVaccineProduct"
+  }
+]

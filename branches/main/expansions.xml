@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="f14abd0e-315a-4684-9ec7-60b9a05f94ed"/>
+  <meta>
+    <lastUpdated value="2024-03-24T17:27:48.470+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://worldhealthorganization.github.io/smart/ValueSet/VSCatMeaslesVaccineProducts"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-CatMeaslesVaccineProducts.html">codesystem Catopia Vaccine Product codes CodeSet v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 3 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---worldhealthorganization.github.io-smart-CodeSystem-CatMeaslesVaccineProducts-20009060-2"> </a>  
+                  <a href="CodeSystem-CatMeaslesVaccineProducts.html#CatMeaslesVaccineProducts-20009060.472">20009060/2</a>
+                </td>
+                <td>http://worldhealthorganization.github.io/smart/CodeSystem/CatMeaslesVaccineProducts</td>
+                <td>Serum Institute of India Measles vaccine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---worldhealthorganization.github.io-smart-CodeSystem-CatMeaslesVaccineProducts-7680007030014"> </a>  
+                  <a href="CodeSystem-CatMeaslesVaccineProducts.html#CatMeaslesVaccineProducts-7680007030014">7680007030014</a>
+                </td>
+                <td>http://worldhealthorganization.github.io/smart/CodeSystem/CatMeaslesVaccineProducts</td>
+                <td>M-M-RvaxPRO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---worldhealthorganization.github.io-smart-CodeSystem-CatMeaslesVaccineProducts-0123456789"> </a>  
+                  <a href="CodeSystem-CatMeaslesVaccineProducts.html#CatMeaslesVaccineProducts-0123456789">0123456789</a>
+                </td>
+                <td>http://worldhealthorganization.github.io/smart/CodeSystem/CatMeaslesVaccineProducts</td>
+                <td>Catopian Pharma Inc. Measles Vaccine</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://worldhealthorganization.github.io/smart/ValueSet/VSCatMeaslesVaccineProducts"/>
+        <version value="0.1.0"/>
+        <name value="VSCatMeaslesVaccineProducts"/>
+        <title value="Catopia MeaslesVaccine Products ValueSet"/>
+        <status value="draft"/>
+        <date value="2024-03-24T17:27:48+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:fd254366-f047-49d6-b2c2-2ba3aecb2e39"/>
+          <timestamp value="2024-03-24T17:28:20+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://worldhealthorganization.github.io/smart/CodeSystem/CatMeaslesVaccineProducts|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://worldhealthorganization.github.io/smart/CodeSystem/CatMeaslesVaccineProducts"/>
+            <code value="20009060/2"/>
+            <display value="Serum Institute of India Measles vaccine"/>
+          </contains>
+          <contains>
+            <system value="http://worldhealthorganization.github.io/smart/CodeSystem/CatMeaslesVaccineProducts"/>
+            <code value="7680007030014"/>
+            <display value="M-M-RvaxPRO"/>
+          </contains>
+          <contains>
+            <system value="http://worldhealthorganization.github.io/smart/CodeSystem/CatMeaslesVaccineProducts"/>
+            <code value="0123456789"/>
+            <display value="Catopian Pharma Inc. Measles Vaccine"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

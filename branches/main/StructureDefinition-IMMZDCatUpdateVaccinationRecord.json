@@ -1,0 +1,339 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "IMMZDCatUpdateVaccinationRecord",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-IMMZDCatUpdateVaccinationRecord-definitions.html#IMMZDCatUpdateVaccinationRecord\">IMMZDCatUpdateVaccinationRecord</a><a name=\"IMMZDCatUpdateVaccinationRecord\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\">IMMZDUpdateVaccinationRecord</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><br/>Elements defined in Ancestors: <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"The current status of the individual immunization event\">immunizatioEventStatus</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"The reason this immunization event was not performed\">reasonNotDone</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"The brand or trade name used to refer to the vaccine received\">vaccineProduct</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"Uses a living but weakened version of the virus or one that's very similar\">liveVaccine</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"Vaccine type/category that was administered or was to be administered. Any vaccine code available in the IMMZ.Z Vaccine Library list of codes applies in this data element\">vaccineType</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"Represents the visit/encounter date, which is the date and time when the vaccine was administered to the client\">dateTime</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"The service delivery country where the vaccine administration occurred\">countryOfVaccination</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"The service delivery location where the vaccine administration occurred\">vaccinationLocation</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"The manufacturer of the vaccine product\">vaccineManufacturer</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"Batch number or lot number of vaccine\">vaccineLotNumber</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"Name of the market authorization holder of the vaccine received. If market authorization holder is unknown, vaccine manufacturer is REQUIRED\">vaccineMAH</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"The expiration date of the vaccine\">vaccineExpirationDate</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"The quantity of vaccine product that was administered\">vaccineDoseQuantity</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"The person, organization, or role of the entity that performed the act of giving the vaccine to the client. The implementing system can choose to populate this field using data from a health worker registry or health facility registry\">healthWorker</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"Vaccine dose number including dose number within series\">vaccineDoseNumber</a>, <a href=\"https://build.fhir.org/ig/WorldHealthOrganization/smart-immunizations-measles//StructureDefinition-IMMZDUpdateVaccinationRecord.html\" title=\"The recommended number of doses for immunity according to the national protocol\">vaccineTotalDosesInSeries</a><br/><span style=\"opacity: 0.5\">IMMZ.D Update Vaccination Record</span><br/><span style=\"font-weight:bold\">Instances of this logical model can be the target of a Reference</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-IMMZDCatUpdateVaccinationRecord-definitions.html#IMMZDCatUpdateVaccinationRecord.vaccineProduct\">vaccineProduct</a><a name=\"IMMZDCatUpdateVaccinationRecord.vaccineProduct\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">1</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Vaccine brand</span><br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-VSCatMeaslesVaccineProducts.html\" title=\"http://worldhealthorganization.github.io/smart/ValueSet/VSCatMeaslesVaccineProducts\">Catopia MeaslesVaccine Products ValueSet</a> (<a href=\"http://hl7.org/fhir/R5/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/logical-target",
+    "valueBoolean" : true
+  },
+  {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/logical-target",
+    "valueBoolean" : true
+  }],
+  "url" : "http://worldhealthorganization.github.io/smart/StructureDefinition/IMMZDCatUpdateVaccinationRecord",
+  "version" : "0.1.0",
+  "name" : "IMMZDUpdateVaccinationRecord",
+  "title" : "IMMZ.D Update Vaccination Record",
+  "status" : "active",
+  "date" : "2024-03-24T17:27:48+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Data elements for IMMZ.D Update Vaccination Record.",
+  "fhirVersion" : "4.3.0",
+  "kind" : "logical",
+  "abstract" : false,
+  "type" : "http://worldhealthorganization.github.io/smart/StructureDefinition/IMMZDCatUpdateVaccinationRecord",
+  "baseDefinition" : "http://smart.who.int/immunizations-measles/StructureDefinition/IMMZDUpdateVaccinationRecord",
+  "derivation" : "specialization",
+  "snapshot" : {
+    "element" : [{
+      "id" : "IMMZDCatUpdateVaccinationRecord",
+      "path" : "IMMZDCatUpdateVaccinationRecord",
+      "short" : "IMMZ.D Update Vaccination Record",
+      "definition" : "Data elements for IMMZ.D Update Vaccination Record.",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Base",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.immunizatioEventStatus",
+      "path" : "IMMZDCatUpdateVaccinationRecord.immunizatioEventStatus",
+      "short" : "The current status of the individual immunization event",
+      "definition" : "The current status of the individual immunization event",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.immunizatioEventStatus",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/IMMZ.D1.DE1VS"
+      }
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.reasonNotDone",
+      "path" : "IMMZDCatUpdateVaccinationRecord.reasonNotDone",
+      "short" : "Reason vaccine was not administered",
+      "definition" : "The reason this immunization event was not performed",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.reasonNotDone",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/IMMZ.D1.DE5VS"
+      }
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.vaccineProduct",
+      "path" : "IMMZDCatUpdateVaccinationRecord.vaccineProduct",
+      "short" : "Vaccine brand",
+      "definition" : "The brand or trade name used to refer to the vaccine received",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.vaccineProduct",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://worldhealthorganization.github.io/smart/ValueSet/VSCatMeaslesVaccineProducts"
+      }
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.liveVaccine",
+      "path" : "IMMZDCatUpdateVaccinationRecord.liveVaccine",
+      "short" : "Live attenuated vaccine",
+      "definition" : "Uses a living but weakened version of the virus or one that's very similar",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.liveVaccine",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.vaccineType",
+      "path" : "IMMZDCatUpdateVaccinationRecord.vaccineType",
+      "short" : "Vaccine type",
+      "definition" : "Vaccine type/category that was administered or was to be administered. Any vaccine code available in the IMMZ.Z Vaccine Library list of codes applies in this data element",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.vaccineType",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }]
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.dateTime",
+      "path" : "IMMZDCatUpdateVaccinationRecord.dateTime",
+      "short" : "Date and time of vaccination",
+      "definition" : "Represents the visit/encounter date, which is the date and time when the vaccine was administered to the client",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.dateTime",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.countryOfVaccination",
+      "path" : "IMMZDCatUpdateVaccinationRecord.countryOfVaccination",
+      "short" : "Country of vaccination",
+      "definition" : "The service delivery country where the vaccine administration occurred",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.countryOfVaccination",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/sgcountry"
+      }
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.vaccinationLocation",
+      "path" : "IMMZDCatUpdateVaccinationRecord.vaccinationLocation",
+      "short" : "Vaccination location",
+      "definition" : "The service delivery location where the vaccine administration occurred",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.vaccinationLocation",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.vaccineManufacturer",
+      "path" : "IMMZDCatUpdateVaccinationRecord.vaccineManufacturer",
+      "short" : "Vaccine manufacturer",
+      "definition" : "The manufacturer of the vaccine product",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.vaccineManufacturer",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.vaccineLotNumber",
+      "path" : "IMMZDCatUpdateVaccinationRecord.vaccineLotNumber",
+      "short" : "Vaccine batch number",
+      "definition" : "Batch number or lot number of vaccine",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.vaccineLotNumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.vaccineMAH",
+      "path" : "IMMZDCatUpdateVaccinationRecord.vaccineMAH",
+      "short" : "Vaccine market authorization holder",
+      "definition" : "Name of the market authorization holder of the vaccine received. If market authorization holder is unknown, vaccine manufacturer is REQUIRED",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.vaccineMAH",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.vaccineExpirationDate",
+      "path" : "IMMZDCatUpdateVaccinationRecord.vaccineExpirationDate",
+      "short" : "Expiration date",
+      "definition" : "The expiration date of the vaccine",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.vaccineExpirationDate",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.vaccineDoseQuantity",
+      "path" : "IMMZDCatUpdateVaccinationRecord.vaccineDoseQuantity",
+      "short" : "Dose quantity",
+      "definition" : "The quantity of vaccine product that was administered",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.vaccineDoseQuantity",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.healthWorker",
+      "path" : "IMMZDCatUpdateVaccinationRecord.healthWorker",
+      "short" : "Health worker identifier",
+      "definition" : "The person, organization, or role of the entity that performed the act of giving the vaccine to the client. The implementing system can choose to populate this field using data from a health worker registry or health facility registry",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.healthWorker",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.vaccineDoseNumber",
+      "path" : "IMMZDCatUpdateVaccinationRecord.vaccineDoseNumber",
+      "short" : "Dose number",
+      "definition" : "Vaccine dose number including dose number within series",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.vaccineDoseNumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "integer"
+      }]
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.vaccineTotalDosesInSeries",
+      "path" : "IMMZDCatUpdateVaccinationRecord.vaccineTotalDosesInSeries",
+      "short" : "Total doses in series",
+      "definition" : "The recommended number of doses for immunity according to the national protocol",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "IMMZDUpdateVaccinationRecord.vaccineTotalDosesInSeries",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "integer"
+      }]
+    }]
+  },
+  "differential" : {
+    "element" : [{
+      "id" : "IMMZDCatUpdateVaccinationRecord",
+      "path" : "IMMZDCatUpdateVaccinationRecord"
+    },
+    {
+      "id" : "IMMZDCatUpdateVaccinationRecord.vaccineProduct",
+      "path" : "IMMZDCatUpdateVaccinationRecord.vaccineProduct",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://worldhealthorganization.github.io/smart/ValueSet/VSCatMeaslesVaccineProducts"
+      }
+    }]
+  }
+}

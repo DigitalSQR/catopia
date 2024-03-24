@@ -1,0 +1,307 @@
+{
+  "date" : "Sun, 24 Mar, 2024 17:27:48 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-who.fhir.smart-measles-catopia.json",
+      "size" : 7951,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 71,
+          "length" : 23
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 71,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 71,
+          "length" : 85
+        },
+        {
+          "activity" : "validate",
+          "start" : 74,
+          "length" : 1048
+        },
+        {
+          "activity" : "generate1",
+          "start" : 75,
+          "length" : 106
+        },
+        {
+          "activity" : "generate2",
+          "start" : 76,
+          "length" : 101
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 132,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 132,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 140,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-CatMeaslesVaccineProducts.json",
+      "size" : 1218,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 71,
+          "length" : 38
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 71,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 71,
+          "length" : 18
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 71,
+          "length" : 39
+        },
+        {
+          "activity" : "validate",
+          "start" : 71,
+          "length" : 641
+        },
+        {
+          "activity" : "generate1",
+          "start" : 75,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 77,
+          "length" : 14357
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 132,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-CatMeaslesImmunization.json",
+      "size" : 1996,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 71,
+          "length" : 36
+        },
+        {
+          "activity" : "load",
+          "start" : 71,
+          "length" : 21
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 71,
+          "length" : 98
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 71,
+          "length" : 108
+        },
+        {
+          "activity" : "validate",
+          "start" : 72,
+          "length" : 1109
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 75,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 75,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 75,
+          "length" : 303
+        },
+        {
+          "activity" : "generate2",
+          "start" : 91,
+          "length" : 1764
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 104,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 132,
+          "length" : 31
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 140,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-CatMeaslesVaccineProduct.json",
+      "size" : 774,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 71,
+          "length" : 37
+        },
+        {
+          "activity" : "load",
+          "start" : 71,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 71,
+          "length" : 43
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 71,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 71,
+          "length" : 36
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 302
+        },
+        {
+          "activity" : "generate1",
+          "start" : 75,
+          "length" : 159
+        },
+        {
+          "activity" : "generate2",
+          "start" : 93,
+          "length" : 713
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 132,
+          "length" : 5
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-IMMZDCatUpdateVaccinationRecord.json",
+      "size" : 1448,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 71,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 71,
+          "length" : 7
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 71,
+          "length" : 42
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 71,
+          "length" : 42
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 80
+        },
+        {
+          "activity" : "generate1",
+          "start" : 75,
+          "length" : 79
+        },
+        {
+          "activity" : "generate2",
+          "start" : 93,
+          "length" : 242
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 132,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 140,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-VSCatMeaslesVaccineProducts.json",
+      "size" : 552,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 71,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 71,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 71,
+          "length" : 126
+        },
+        {
+          "activity" : "validate",
+          "start" : 72,
+          "length" : 20
+        },
+        {
+          "activity" : "generate1",
+          "start" : 75,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 94,
+          "length" : 9298
+        }
+      ]
+    }
+  ]
+}

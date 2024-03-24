@@ -1,0 +1,36 @@
+SMART
+=========================================
+
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/CatMeaslesImmunization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/CatMeaslesVaccineProduct.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Error - The reference http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 could not be resolved (INVARIANT)
+Generic: line 0, col 0, Error - The reference http://hl7.org/fhir/ValueSet/medication-status|4.0.1 could not be resolved (INVARIANT)
+Generic: line 0, col 0, Error - The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'immunization-status|4.0.1.html' for "immunization-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'medication-status|4.0.1.html' for "medication-status|4.0.1" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/github/workspace/fsh-generated/resources/CodeSystem-CatMeaslesVaccineProducts.json: line 0, col 0, Info - CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/CodeSystem-CatMeaslesVaccineProducts.json: line 1, col 2186, Warning - Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-CatMeaslesVaccineProducts.json: line 1, col 2186, Warning - Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present (REQUIRED)
+/github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-measles-catopia.json: line 1, col 122, Error - Canonical URLs must be absolute URLs if they are not fragment references (SMARTImplementationGuide) (INVALID)
+/github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-measles-catopia.json: line 1, col 15650, Warning - Profile reference 'SMARTImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles (STRUCTURE)
+/github/workspace/fsh-generated/resources/Medication-Vaccine-MSDMMRVaxPro.json: line 9, col 4, Warning - ValueSet 'https://fhir.staging.openconceptlab.org/orgs/WHO-Smart-Guidelines/ValueSet/VSMeaslesVaccineProducts' not found (CODEINVALID)
+/github/workspace/fsh-generated/resources/Medication-Vaccine-MSDMMRVaxPro.json: line 9, col 4, Info - Reference to experimental CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts|0.1.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-CatMeaslesImmunization.json: line 1, col 37895, Error - Canonical URL 'http://hl7.org/fhir/ValueSet/immunization-status|4.0.1' does not resolve (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-CatMeaslesImmunization.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-CatMeaslesVaccineProduct.json: line 1, col 28165, Error - Canonical URL 'http://hl7.org/fhir/ValueSet/medication-status|4.0.1' does not resolve (INVALID)
+
+err = 5, warn = 11, info = 2
+IG Publisher Version: 1.6.1

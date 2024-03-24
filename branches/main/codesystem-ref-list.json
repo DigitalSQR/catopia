@@ -1,0 +1,15 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://worldhealthorganization.github.io/smart/CodeSystem/CatMeaslesVaccineProducts",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CatMeaslesVaccineProducts",
+      "title" : "Catopia Vaccine Product codes CodeSet",
+      "description" : "Vaccine Product codes, containing the different available products.",
+      "uses" : {
+      },
+      "ValueSet-VSCatMeaslesVaccineProducts.html" : "Catopia MeaslesVaccine Products ValueSet"
+    }
+  ]
+}
